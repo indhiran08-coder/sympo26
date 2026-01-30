@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes">
+    <meta name="description" content="SYNERGIA '26 - AITronix '26 | 21st National Level Technical Symposium at VCET. The Doomsday Clock is ticking. Register now for Paper Pitch, Mind Prompt, and more events on February 11, 2026.">
+    <meta name="theme-color" content="#c41e3a">
+    <title>SYNERGIA '26 - AITronix '26 | The Doomsday Approaches</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500;600;700&family=Rajdhani:wght@300;400;500;600;700&family=Exo+2:wght@200;300;400;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<body>
+    <!-- Loader -->
+    <div class="loader" id="loader">
+        <div class="loader-content">
+            <div class="loader-logo">SYNERGIA '26</div>
+            <div style="color: var(--gold); margin-top: 1rem; font-size: 1.2rem; letter-spacing: 3px;">INITIALIZING...</div>
+        </div>
+    </div>
+
+    <!-- Particles -->
+    <div class="particles" id="particles"></div>
+    
+    <!-- Floating Accent Lights for Enhanced Background -->
+    <div class="accent-light accent-light-1"></div>
+    <div class="accent-light accent-light-2"></div>
+    <div class="accent-light accent-light-3"></div>
+
+    <!-- Header -->
+    <header id="header">
+        <div class="header-content">
+            <div class="logo-section">
+                <div>
+                    <div class="college-logo">VCET</div>
+                    <div class="dept-name">AI & Data Science</div>
+                </div>
+            </div>
+            <nav class="nav-menu" id="navMenu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#events" class="nav-link">Events</a>
+                <a href="#dates" class="nav-link">Dates</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </nav>
+            <div class="menu-toggle" id="menuToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdqbJVdd3RgzUnc0498u5QmpKHAPBr9ubp-MR_s2XQFax-HWQ/viewform?usp=header" class="register-btn" target="_blank">Register Now</a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-backdrop"></div>
+        <div class="hero-content">
+            <div class="symposium-badge">21st National Level Technical Symposium</div>
+            <h1 class="event-title glitch" data-text="SYNERGIA '26">SYNERGIA '26</h1>
+            <div class="title-underline"></div>
+            <h2 class="subtitle">AITronix '26</h2>
+            <p class="event-tagline">Department of Artificial Intelligence and Data Science</p>
+            <p class="hero-quote">In the face of extinction, every second counts. Will you rise to the challenge?</p>
+        </div>
+        
+        <!-- Doomsday Clock Countdown -->
+        <div class="doomsday-clock">
+            <div class="clock-label">⚠️ TIME UNTIL DOOMSDAY ⚠️</div>
+            <div class="clock-container">
+                <div class="clock-segment">
+                    <span class="clock-number" id="days">00</span>
+                    <span class="clock-label-small">Days</span>
+                </div>
+                <div class="clock-segment">
+                    <span class="clock-number" id="hours">00</span>
+                    <span class="clock-label-small">Hours</span>
+                </div>
+                <div class="clock-segment">
+                    <span class="clock-number" id="minutes">00</span>
+                    <span class="clock-label-small">Minutes</span>
+                </div>
+                <div class="clock-segment">
+                    <span class="clock-number" id="seconds">00</span>
+                    <span class="clock-label-small">Seconds</span>
+                </div>
+            </div>
+            <div class="clock-warning">⚡ SYSTEM ALERT: COUNTDOWN ACTIVE ⚡</div>
+        </div>
+    </section>
+
+    <!-- Event Details -->
+    <section class="event-details" id="about">
+        <h2 class="section-title"><span>Mission Overview</span></h2>
+        <div class="info-grid">
+            <div class="info-card">
+                <span class="info-icon">📍</span>
+                <h3 class="info-title">Location</h3>
+                <div class="info-content">
+                    Velalar College of Engineering and Technology<br>
+                    Thindal, Erode - 638 012<br>
+                    Tamil Nadu, India
+                </div>
+            </div>
+            <div class="info-card">
+                <span class="info-icon">📅</span>
+                <h3 class="info-title">Event Date</h3>
+                <div class="info-content">
+                    February 11, 2026<br>
+                    4:00 PM Onwards<br>
+                    Full Day Symposium
+                </div>
+            </div>
+            <div class="info-card">
+                <span class="info-icon">💰</span>
+                <h3 class="info-title">Entry Fee</h3>
+                <div class="info-content">
+                    Rs. 400 per participant<br>
+                    Includes all events<br>
+                    Limited slots available
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Events -->
+    <section class="events-section" id="events">
+        <h2 class="section-title"><span>Battle Arenas</span></h2>
+        <div class="events-grid">
+            <div class="event-card">
+                <div class="event-badge">Technical Event</div>
+                <h3 class="event-name">Paper Pitch</h3>
+                <p class="event-description">
+                    Showcase your groundbreaking research and innovative technical solutions. Present your ideas that could save humanity from the impending crisis. Demonstrate your problem-solving prowess and technical mastery in this high-stakes competition.
+                </p>
+                <div class="event-meta">👥 2 Members Per Team</div>
+            </div>
+            <div class="event-card">
+                <div class="event-badge">Technical Event</div>
+                <h3 class="event-name">Mind Prompt</h3>
+                <p class="event-description">
+                    Test your intellect against the most challenging technical problems. Deploy your analytical skills and creative thinking to overcome obstacles that would stump even the brightest minds. The fate of innovation rests in your hands.
+                </p>
+                <div class="event-meta">🧠 Individual/Team Event</div>
+            </div>
+            <div class="event-card">
+                <div class="event-badge">Non-Technical Event</div>
+                <h3 class="event-name">Rapid Rumble</h3>
+                <p class="event-description">
+                    Lightning-fast challenges that demand quick wit and seamless teamwork. Navigate through rapid-fire tasks that test coordination, strategy, and your ability to think on your feet. Speed and precision are your only allies.
+                </p>
+                <div class="event-meta">⚡ Individual/Team Event</div>
+            </div>
+            <div class="event-card">
+                <div class="event-badge">Special Event</div>
+                <h3 class="event-name">Music Mashup</h3>
+                <p class="event-description">
+                    Experience an electrifying musical journey starting at 4:00 PM. Immerse yourself in powerful beats and dynamic performances that will energize your spirit and unite us all in the face of doomsday. Let the rhythm be your strength.
+                </p>
+                <div class="event-meta">🎵 4:00 PM Onwards</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Important Dates -->
+    <section class="dates-section" id="dates">
+        <h2 class="section-title"><span>Critical Timeline</span></h2>
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <div class="timeline-date">04.02.2026</div>
+                    <div class="timeline-title">Final Registration Deadline</div>
+                </div>
+                <div class="timeline-dot"></div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <div class="timeline-date">05.02.2026</div>
+                    <div class="timeline-title">Paper Submission Cutoff</div>
+                </div>
+                <div class="timeline-dot"></div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <div class="timeline-date">07.02.2026</div>
+                    <div class="timeline-title">Participant Notification</div>
+                </div>
+                <div class="timeline-dot"></div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <div class="timeline-date">11.02.2026</div>
+                    <div class="timeline-title">DOOMSDAY - Event Commences</div>
+                </div>
+                <div class="timeline-dot"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact-section" id="contact">
+        <h2 class="section-title"><span>Contact Command</span></h2>
+        <div class="contact-grid">
+            <div class="contact-card">
+                <div class="contact-role">Faculty Coordinator</div>
+                <div class="contact-name">Mrs. A. Aiswarya</div>
+                <div class="contact-phone">📞 86104 42425</div>
+            </div>
+            <div class="contact-card">
+                <div class="contact-role">Faculty Coordinator</div>
+                <div class="contact-name">Mr. S. Sethupathi</div>
+                <div class="contact-phone">📞 63802 95331</div>
+            </div>
+            <div class="contact-card">
+                <div class="contact-role">Student Coordinator</div>
+                <div class="contact-name">Mr. R. Surya</div>
+                <div class="contact-phone">📞 94868 34286</div>
+            </div>
+            <div class="contact-card">
+                <div class="contact-role">Student Coordinator</div>
+                <div class="contact-name">Ms. G. Logeshwari</div>
+                <div class="contact-phone">📞 99436 80661</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">ASSOCIATION OF AI&DS - ASPYRA</div>
+            <p class="footer-text">Velalar College of Engineering and Technology</p>
+            <p class="footer-text">Thindal, Erode - 638 012, Tamil Nadu</p>
+            <div class="social-links">
+                <a href="https://www.instagram.com/vcet_ai_ds_/" target="_blank" class="social-link">📷 @vcet_ai_ds_</a>
+            </div>
+            <p class="footer-tagline">⚠️ The Doomsday Clock Is Ticking... ⚠️</p>
+        </div>
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
